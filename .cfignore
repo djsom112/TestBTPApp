@@ -1,0 +1,13 @@
+# Cloud Foundry Ignore List
+node_modules/
+.git/
+.env
+.env.example
+.gitignore
+tsconfig.json
+vite.config.ts
+tailwind.config.js
+assets/
+components.json
+metadata.json
+# Keep the dist/ directory as that contains the optimized production build!

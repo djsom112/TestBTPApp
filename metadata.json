@@ -1,0 +1,6 @@
+{
+  "name": "SAP BTP User and Role Explorer",
+  "description": "Interactive dashboard to explore, simulate, and generate security configurations for SAP BTP users, scopes, and role collections.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

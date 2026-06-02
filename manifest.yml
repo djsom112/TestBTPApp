@@ -1,0 +1,14 @@
+---
+applications:
+  - name: btp-identity-explorer
+    path: .
+    memory: 256M
+    disk_quota: 512M
+    random-route: true
+    buildpacks:
+      - nodejs_buildpack
+    env:
+      NODE_ENV: production
+      # To secure your app in BTP you can bind an XSUAA instance.
+      # The application is configured to automatically run in local mockup mode
+      # if no XSUAA credentials are bound.
